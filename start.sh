@@ -7,9 +7,9 @@ then
   echo "Cloning main Repository"
   git clone https://github.com/movaaafdk/VJ-FILTER-BOT.git /VJ-FILTER-BOT
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Ms56hhhsbhai-boss
+  git clone $UPSTREAM_REPO /VJ-FILTER-BOT
 fi
-cd /Ms56hhhsbhai-boss 
+cd /AUTO-FILTER-BOT
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
